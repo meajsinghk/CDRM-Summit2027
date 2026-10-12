@@ -31,30 +31,30 @@
   </g>
 
   <!-- Main Wordmark -->
-  <text x="80" y="185" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em" fill="#203864">CDRM : Summit 2027</text>
+  <text x="80" y="150" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="56" font-weight="700" letter-spacing="-0.02em" fill="#203864">CDRM : Summit 2027</text>
 
-  <text x="80" y="235" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0.18em" fill="#203864">FROM RESEARCH TO DEPLOYMENT</text>
+  <text x="80" y="200" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="0.18em" fill="#203864">FROM RESEARCH TO DEPLOYMENT</text>
 
   <!-- Divider Line -->
-  <line x1="80" y1="265" x2="680" y2="265" stroke="#203864" stroke-opacity="0.25" stroke-width="1" />
+  <line x1="80" y1="230" x2="680" y2="230" stroke="#203864" stroke-opacity="0.25" stroke-width="1" />
 
   <!-- Date line with calendar icon -->
-  <g transform="translate(80, 292)">
+  <g transform="translate(80, 257)">
     <rect x="0" y="0" width="16" height="16" rx="2" fill="none" stroke="#203864" stroke-width="1.5" />
     <line x1="0" y1="5" x2="16" y2="5" stroke="#203864" stroke-width="1.5" />
     <line x1="4" y1="-2" x2="4" y2="2" stroke="#203864" stroke-width="1.5" />
     <line x1="12" y1="-2" x2="12" y2="2" stroke="#203864" stroke-width="1.5" />
-    <text x="26" y="13" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="15" font-weight="700" fill="#203864">4 to 5 February 2027</text>
+    <text x="26" y="13" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="16" font-weight="700" fill="#203864">4 to 5 February 2027</text>
   </g>
 
   <!-- Location line with pin icon -->
-  <g transform="translate(80, 328)">
+  <g transform="translate(80, 293)">
     <path d="M7,0 C3.13,0 0,3.13 0,7 C0,12.25 7,18 7,18 C7,18 14,12.25 14,7 C14,3.13 10.87,0 7,0 Z" fill="none" stroke="#203864" stroke-width="1.5" />
     <circle cx="7" cy="7" r="2.5" fill="#203864" />
-    <text x="26" y="13" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="15" font-weight="700" fill="#203864">Luxor Hotel &amp; Casino, Las Vegas, NV</text>
+    <text x="26" y="13" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="16" font-weight="700" fill="#203864">Luxor Hotel &amp; Casino, Las Vegas, NV</text>
   </g>
 
   <!-- Co-located note -->
-  <text x="80" y="380" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#5A6474">Co-located with the 4th International Atmospheric Water Harvesting Summit</text>
+  <text x="80" y="345" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#5A6474">Co-located with the 4th International Atmospheric Water Harvesting Summit</text>
 </svg>
 
