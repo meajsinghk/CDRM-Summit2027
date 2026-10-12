@@ -254,6 +254,111 @@ section {
   margin-bottom: 10px;
 }
 
+/* LOCATION PAGE */
+.location-intro {
+  padding: 56px 0 40px;
+}
+
+.location-title {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.location-address {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.location-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 28px;
+}
+
+.location-copy {
+  max-width: 900px;
+  margin-top: 28px;
+}
+
+.location-copy p {
+  font-size: 16px;
+}
+
+.location-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.location-travel {
+  background: var(--band-2);
+}
+
+.location-travel h2,
+.hotel-block h2 {
+  font-size: 26px;
+}
+
+.airport-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.airport-option + .airport-option {
+  border-left: 1px solid var(--line);
+  padding-left: 40px;
+}
+
+.airport-option h3 {
+  font-size: 19px;
+  margin-bottom: 14px;
+}
+
+.travel-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.travel-options li {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.travel-options li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.hotel-block {
+  background: var(--white);
+  color: var(--ink);
+}
+
+.hotel-block .wrap {
+  background: var(--band);
+  border-left: 3px solid var(--navy);
+  padding: 40px;
+}
+
+.hotel-block h2 {
+  color: var(--navy);
+}
+
+.hotel-block p {
+  max-width: 860px;
+  color: var(--ink);
+  font-size: 15.5px;
+}
+
+.booking-deadline {
+  margin: 14px 0 0;
+  font-size: 13.5px !important;
+}
+
 /* OVERVIEW */
 .overview h2 {
   font-size: 26px;
