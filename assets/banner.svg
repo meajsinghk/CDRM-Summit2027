@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF5FC" />
+      <stop offset="50%" stop-color="#E3EAF6" />
+      <stop offset="100%" stop-color="#D9E6F5" />
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="450" fill="url(#bgGrad)" />
+  <circle cx="950" cy="225" r="300" fill="url(#glow)" />
+
+  <!-- Subtle Contour / Wave Lines -->
+  <g stroke="#203864" stroke-opacity="0.08" fill="none" stroke-width="1.2">
+    <circle cx="1000" cy="225" r="80" />
+    <circle cx="1000" cy="225" r="140" />
+    <circle cx="1000" cy="225" r="200" />
+    <circle cx="1000" cy="225" r="260" />
+    <circle cx="1000" cy="225" r="320" />
+    <circle cx="1000" cy="225" r="380" />
+    <circle cx="1000" cy="225" r="440" />
+    <circle cx="1000" cy="225" r="500" />
+    <path d="M-100,380 C300,420 700,280 1300,320" stroke-width="1" />
+    <path d="M-100,410 C300,450 700,310 1300,350" stroke-width="1" />
+    <path d="M-100,350 C300,390 700,250 1300,290" stroke-width="1" />
+  </g>
+
+  <!-- Main Wordmark -->
+  <text x="80" y="185" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-0.02em" fill="#203864">CDRM : Summit 2027</text>
+
+  <text x="80" y="235" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0.18em" fill="#203864">FROM RESEARCH TO DEPLOYMENT</text>
+
+  <!-- Divider Line -->
+  <line x1="80" y1="265" x2="680" y2="265" stroke="#203864" stroke-opacity="0.25" stroke-width="1" />
+
+  <!-- Date line with calendar icon -->
+  <g transform="translate(80, 292)">
+    <rect x="0" y="0" width="16" height="16" rx="2" fill="none" stroke="#203864" stroke-width="1.5" />
+    <line x1="0" y1="5" x2="16" y2="5" stroke="#203864" stroke-width="1.5" />
+    <line x1="4" y1="-2" x2="4" y2="2" stroke="#203864" stroke-width="1.5" />
+    <line x1="12" y1="-2" x2="12" y2="2" stroke="#203864" stroke-width="1.5" />
+    <text x="26" y="13" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="15" font-weight="700" fill="#203864">4 to 5 February 2027</text>
+  </g>
+
+  <!-- Location line with pin icon -->
+  <g transform="translate(80, 328)">
+    <path d="M7,0 C3.13,0 0,3.13 0,7 C0,12.25 7,18 7,18 C7,18 14,12.25 14,7 C14,3.13 10.87,0 7,0 Z" fill="none" stroke="#203864" stroke-width="1.5" />
+    <circle cx="7" cy="7" r="2.5" fill="#203864" />
+    <text x="26" y="13" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="15" font-weight="700" fill="#203864">Luxor Hotel &amp; Casino, Las Vegas, NV</text>
+  </g>
+
+  <!-- Co-located note -->
+  <text x="80" y="380" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#5A6474">Co-located with the 4th International Atmospheric Water Harvesting Summit</text>
+</svg>
+
