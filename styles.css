@@ -532,6 +532,35 @@ section {
   text-align: right;
 }
 
+#sponsors .sponsor-intro {
+  max-width: none;
+  font-size: 14.5px;
+}
+
+#sponsors .sponsorship-list .srow {
+  display: grid;
+  grid-template-columns: minmax(0, .55fr) minmax(0, 1.45fr);
+  gap: 8px 32px;
+  padding: 10px 0;
+  border: 0;
+}
+
+#sponsors .sponsorship-list .srow:first-child {
+  border: 0;
+}
+
+#sponsors .sponsorship-list .nm {
+  font-style: normal;
+  font-size: 15px;
+}
+
+#sponsors .sponsorship-list .rl {
+  font-style: normal;
+  font-size: 13px;
+  text-align: left;
+  line-height: 1.45;
+}
+
 .badge {
   font-size: 11px;
   font-weight: 700;
@@ -999,6 +1028,10 @@ section {
   .cta {
     flex-direction: column;
     align-items: flex-start;
+  }
+  #sponsors .sponsorship-list .srow {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 }
 
