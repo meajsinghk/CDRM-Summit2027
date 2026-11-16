@@ -105,13 +105,17 @@
           <button class="speaker-card" type="button" aria-haspopup="dialog" data-speaker-dialog="chris-jones-dialog">
             <img src="public/Dr.ChrisJones.jpg" alt="">
             <span class="speaker-card-name">Dr. Christopher W. Jones</span>
-            <span class="speaker-card-role">Professor of Chemical &amp; Biomolecular Engineering, Georgia Tech</span>
+            <span class="speaker-card-role">Professor of Chemical &amp; Biomolecular Engineering</span>
+            <span class="speaker-card-affiliation">Georgia Tech</span>
+            <span class="speaker-card-day">Day 1 &middot; Keynote</span>
             <span class="speaker-card-action">View speaker details</span>
           </button>
           <button class="speaker-card" type="button" aria-haspopup="dialog" data-speaker-dialog="jennifer-wilcox-dialog">
             <img src="public/Dr.JenniferWilcox.jpg" alt="">
             <span class="speaker-card-name">Jennifer Wilcox</span>
-            <span class="speaker-card-role">Presidential Distinguished Professor of Chemical Engineering and Energy Policy, University of Pennsylvania</span>
+            <span class="speaker-card-role">Presidential Distinguished Professor of Chemical Engineering and Energy Policy</span>
+            <span class="speaker-card-affiliation">University of Pennsylvania</span>
+            <span class="speaker-card-day">Day 2 &middot; Keynote</span>
             <span class="speaker-card-action">View speaker details</span>
           </button>
         </div>
@@ -120,30 +124,40 @@
 
     <dialog class="speaker-dialog" id="chris-jones-dialog" aria-labelledby="chris-jones-name">
       <button class="speaker-dialog-close" type="button" aria-label="Close speaker details">&times;</button>
-      <img class="speaker-dialog-photo" src="public/Dr.ChrisJones.jpg" alt="Dr. Christopher W. Jones">
-      <div class="speaker-dialog-content">
-        <h2 id="chris-jones-name">Dr. Christopher W. Jones</h2>
-        <p class="speaker-dialog-title">Professor of Chemical &amp; Biomolecular Engineering<br>Georgia Tech</p>
-        <p>Professor Jones is the William R. McLain Chair and Professor of Chemical &amp; Biomolecular Engineering at Georgia Tech. He joined Georgia Tech as an Assistant Professor in 2000 and then rose through the ranks, including serving as Associate Vice President for Research from 2013-2019, including a period as Interim Executive Vice-President for Research in 2018.</p>
-        <p>Dr. Jones leads a research group that works in the broad areas of materials, catalysis and adsorption. He is known for his extensive and pioneering work on materials that extract CO2 from ultra-dilute mixtures such as ambient air, which are key components of direct air capture (DAC) technologies. He served on the National Academies Consensus Study on Negative Emissions Technologies and Reliable Sequestration in 2017-2018, focusing on DAC.</p>
-        <h3>Research Interests</h3>
-        <ul>
-          <li>Energy - CO2 Capture, Lignocellulose conversion</li>
-          <li>Separations - materials for adsorptive and membrane separations</li>
-        </ul>
+      <div class="speaker-dialog-layout">
+        <img class="speaker-dialog-photo" src="public/Dr.ChrisJones.jpg" alt="Dr. Christopher W. Jones">
+        <div class="speaker-dialog-heading">
+          <h2 id="chris-jones-name">Dr. Christopher W. Jones</h2>
+          <p class="speaker-dialog-title">Professor of Chemical &amp; Biomolecular Engineering<br>Georgia Tech</p>
+          <p class="speaker-dialog-day">Day 1 &middot; Keynote</p>
+        </div>
+        <div class="speaker-dialog-content">
+          <p>Professor Jones is the William R. McLain Chair and Professor of Chemical &amp; Biomolecular Engineering at Georgia Tech. He joined Georgia Tech as an Assistant Professor in 2000 and then rose through the ranks, including serving as Associate Vice President for Research from 2013-2019, including a period as Interim Executive Vice-President for Research in 2018.</p>
+          <p>Dr. Jones leads a research group that works in the broad areas of materials, catalysis and adsorption. He is known for his extensive and pioneering work on materials that extract CO2 from ultra-dilute mixtures such as ambient air, which are key components of direct air capture (DAC) technologies. He served on the National Academies Consensus Study on Negative Emissions Technologies and Reliable Sequestration in 2017-2018, focusing on DAC.</p>
+          <h3>Research Interests</h3>
+          <ul>
+            <li>Energy - CO2 Capture, Lignocellulose conversion</li>
+            <li>Separations - materials for adsorptive and membrane separations</li>
+          </ul>
+        </div>
       </div>
     </dialog>
 
     <dialog class="speaker-dialog" id="jennifer-wilcox-dialog" aria-labelledby="jennifer-wilcox-name">
       <button class="speaker-dialog-close" type="button" aria-label="Close speaker details">&times;</button>
-      <img class="speaker-dialog-photo" src="public/Dr.JenniferWilcox.jpg" alt="Jennifer Wilcox">
-      <div class="speaker-dialog-content">
-        <h2 id="jennifer-wilcox-name">Jennifer Wilcox</h2>
-        <p class="speaker-dialog-title">Presidential Distinguished Professor of Chemical Engineering and Energy Policy</p>
-        <p>Jennifer Wilcox is Presidential Distinguished Professor of Chemical Engineering and Energy Policy at the University of Pennsylvania, with a home at the Kleinman Center for Energy Policy and the School of Engineering and Applied Science. At Penn, she oversees the <a href="https://ceclab.seas.upenn.edu/" target="_blank" rel="noopener">Clean Energy Conversions Lab</a>.</p>
-        <p>Wilcox also works with Isometric as their chief scientist and is a senior fellow at the World Resources Institute, where she leverages her expertise to help accelerate policy support and investments in research, development, and deployment of industrial decarbonization and carbon removal solutions in order to achieve net-zero emissions by 2050.</p>
-        <p>Most recently, Wilcox served as the principal deputy assistant secretary for the Office of Fossil Energy and Carbon Management at the Department of Energy.</p>
-        <p>Wilcox’s research takes aim at the nexus of energy and the environment, developing both mitigation and adaptation strategies to minimize negative climate impacts associated with society’s dependence on fossil fuels. This work carefully examines the role of carbon management and opportunities therein that could assist in preventing 2° C warming by 2100.</p>
+      <div class="speaker-dialog-layout">
+        <img class="speaker-dialog-photo" src="public/Dr.JenniferWilcox.jpg" alt="Jennifer Wilcox">
+        <div class="speaker-dialog-heading">
+          <h2 id="jennifer-wilcox-name">Jennifer Wilcox</h2>
+          <p class="speaker-dialog-title">Presidential Distinguished Professor of Chemical Engineering and Energy Policy<br>University of Pennsylvania</p>
+          <p class="speaker-dialog-day">Day 2 &middot; Keynote</p>
+        </div>
+        <div class="speaker-dialog-content">
+          <p>Jennifer Wilcox is Presidential Distinguished Professor of Chemical Engineering and Energy Policy at the University of Pennsylvania, with a home at the Kleinman Center for Energy Policy and the School of Engineering and Applied Science. At Penn, she oversees the <a href="https://ceclab.seas.upenn.edu/" target="_blank" rel="noopener">Clean Energy Conversions Lab</a>.</p>
+          <p>Wilcox also works with Isometric as their chief scientist and is a senior fellow at the World Resources Institute, where she leverages her expertise to help accelerate policy support and investments in research, development, and deployment of industrial decarbonization and carbon removal solutions in order to achieve net-zero emissions by 2050.</p>
+          <p>Most recently, Wilcox served as the principal deputy assistant secretary for the Office of Fossil Energy and Carbon Management at the Department of Energy.</p>
+          <p>Wilcox’s research takes aim at the nexus of energy and the environment, developing both mitigation and adaptation strategies to minimize negative climate impacts associated with society’s dependence on fossil fuels. This work carefully examines the role of carbon management and opportunities therein that could assist in preventing 2° C warming by 2100.</p>
+        </div>
       </div>
     </dialog>
 
@@ -203,7 +217,7 @@
               <div class="agenda-time">09:50&ndash;11:20</div>
               <div class="agenda-item">Session 3 - Economics, Policy &amp; Society (starting with invited talk - TBD)</div>
             </div>
-            <div class="agenda-row">
+            <div class="agenda-row agenda-break">
               <div class="agenda-time">11:20&ndash;12:00</div>
               <div class="agenda-item">Lunch &amp; Networking</div>
             </div>
