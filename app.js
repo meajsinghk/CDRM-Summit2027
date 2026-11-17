@@ -20,6 +20,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  document.querySelectorAll('[data-speaker-dialog]').forEach(button => {
+    const dialogId = button.getAttribute('data-speaker-dialog');
+    const dialog = dialogId ? document.getElementById(dialogId) : null;
+
+    if (!dialog || typeof dialog.showModal !== 'function') {
+      return;
+    }
+
+    button.addEventListener('click', () => dialog.showModal());
+    dialog.querySelector('.speaker-dialog-close')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => {
+      if (event.target === dialog) {
+        dialog.close();
+      }
+    });
+  });
+
   // Smooth scrolling for anchor links with header offset
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
